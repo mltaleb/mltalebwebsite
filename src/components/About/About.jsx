@@ -36,7 +36,7 @@ export const About = () => {
             <div className={styles.aboutItemText}>
               <h3>Developpeur FullStack</h3>
               <p>
-                J'ai déveoppé plusieurs Responives UI avec des excellentes UX
+                J'ai développé plusieurs Responives UI avec des excellentes UX
                 ainsi que des systems de backend et APIs.
               </p>
             </div>
