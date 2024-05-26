@@ -19,7 +19,7 @@ export const About = () => {
             <div className={styles.aboutItemText}>
               <h3>Developpeur Power Platform</h3>
               <p>
-                Je developpe des solutions de Microsoft Power Platform qui
+                Je développe des solutions de Microsoft Power Platform qui
                 incarnent le processus metier du client.
               </p>
             </div>
@@ -28,7 +28,7 @@ export const About = () => {
             <img src={getImageUrl("about/serverIcon.png")} alt="Server icon" />
             <div className={styles.aboutItemText}>
               <h3>Developpeur SharePoint</h3>
-              <p>Une grande experience de development de SharePoint Online.</p>
+              <p>Une grande expérience de development de SharePoint Online.</p>
             </div>
           </li>
           <li className={styles.aboutItem}>
@@ -36,7 +36,7 @@ export const About = () => {
             <div className={styles.aboutItemText}>
               <h3>Developpeur FullStack</h3>
               <p>
-                J'ai Deveoppé plusieurs Responives UI avec des excellentes UX
+                J'ai déveoppé plusieurs Responives UI avec des excellentes UX
                 ainsi que des systems de backend et APIs.
               </p>
             </div>
