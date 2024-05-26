@@ -1,19 +1,24 @@
-import React from "react";
+import React from "react"
 
-import styles from "./Hero.module.css";
-import { getImageUrl } from "../../utils";
+import styles from "./Hero.module.css"
+import { getImageUrl } from "../../utils"
 
 export const Hero = () => {
   return (
     <section className={styles.container}>
       <div className={styles.content}>
-        <h1 className={styles.title}>Hi, I'm Ada</h1>
+        <h1 className={styles.title}>Salut, Je suis Mohamed-lamin</h1>
         <p className={styles.description}>
-          I'm a full-stack developer with 5 years of experience using React and
-          NodeJS. Reach out if you'd like to learn more!
+          Je suis developpeur de Micrososft Power Platform & SharePoint, mon
+          experience s'étend à ASP.NET Core & <br /> Microsoft SQL server ainsi
+          que NextJS.
         </p>
-        <a href="mailto:myemail@email.com" className={styles.contactBtn}>
-          Contact Me
+        <a
+          href="https://outlook.office365.com/book/Clientdiscussion@mltaleb.com/"
+          target="_blank"
+          className={styles.contactBtn}
+        >
+          Prenez un rendez-vous
         </a>
       </div>
       <img
@@ -24,5 +29,5 @@ export const Hero = () => {
       <div className={styles.topBlur} />
       <div className={styles.bottomBlur} />
     </section>
-  );
-};
+  )
+}

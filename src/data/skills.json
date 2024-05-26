@@ -1,30 +1,42 @@
 [
   {
-    "title": "HTML",
-    "imageSrc": "skills/html.png"
+    "title": "Power Apps",
+    "imageSrc": "skills/powerapps.png"
   },
   {
-    "title": "CSS",
-    "imageSrc": "skills/css.png"
+    "title": "Power Automate",
+    "imageSrc": "skills/powerautomate.png"
   },
   {
-    "title": "React",
-    "imageSrc": "skills/react.png"
+    "title": "Power Pages",
+    "imageSrc": "skills/powerpages.png"
   },
   {
-    "title": "Node",
-    "imageSrc": "skills/node.png"
+    "title": "Power BI",
+    "imageSrc": "skills/powerbi.png"
   },
   {
-    "title": "GraphQL",
-    "imageSrc": "skills/graphql.png"
+    "title": "Dataverse",
+    "imageSrc": "skills/dataverse.png"
   },
   {
-    "title": "MongoDB",
-    "imageSrc": "skills/mongodb.png"
+    "title": "SharePoint",
+    "imageSrc": "skills/sharepoint.png"
   },
   {
-    "title": "Figma",
-    "imageSrc": "skills/figma.png"
+    "title": "ASP.NET Core",
+    "imageSrc": "skills/asp.netcore.png"
+  },
+  {
+    "title": "SQL Server",
+    "imageSrc": "skills/sqlserver.png"
+  },
+  {
+    "title": "NextJS",
+    "imageSrc": "skills/nextjs.png"
+  },
+  {
+    "title": "Azure",
+    "imageSrc": "skills/azure.png"
   }
 ]

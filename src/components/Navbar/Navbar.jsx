@@ -1,15 +1,15 @@
-import React, { useState } from "react";
+import React, { useState } from "react"
 
-import styles from "./Navbar.module.css";
-import { getImageUrl } from "../../utils";
+import styles from "./Navbar.module.css"
+import { getImageUrl } from "../../utils"
 
 export const Navbar = () => {
-  const [menuOpen, setMenuOpen] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false)
 
   return (
     <nav className={styles.navbar}>
       <a className={styles.title} href="/">
-        Portfolio
+        MLTALEB
       </a>
       <div className={styles.menu}>
         <img
@@ -26,14 +26,15 @@ export const Navbar = () => {
           className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}
           onClick={() => setMenuOpen(false)}
         >
+          <li></li>
+          <a href="#about">À props</a>
           <li>
-            <a href="#about">About</a>
+            <a href="#experience">Expérience</a>
           </li>
           <li>
-            <a href="#experience">Experience</a>
-          </li>
-          <li>
-            <a href="#projects">Projects</a>
+            <a href="https://mltaleb.blogspot.com/" target="_blank">
+              Blog
+            </a>
           </li>
           <li>
             <a href="#contact">Contact</a>
@@ -41,5 +42,5 @@ export const Navbar = () => {
         </ul>
       </div>
     </nav>
-  );
-};
+  )
+}
